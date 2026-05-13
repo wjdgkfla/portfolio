@@ -1,3 +1,4 @@
+import Image from "next/image";
 import PORTFOLIO from "../data/portfolio";
 import { Download, ArrowRight, Github, Linkedin } from "./Icons";
 
@@ -6,41 +7,57 @@ export default function Hero() {
   return (
     <section id="home" className="hero">
       <div className="container hero-inner">
-        <div className="hero-meta mono">
-          <span>{p.location}</span>
-          <span className="dot-sep">·</span>
-          <span>Available for summer 2026 internships</span>
-        </div>
-        <h1 className="hero-name serif">
-          Ha Lim{" "}Chung
-        </h1>
-        <div className="hero-altname mono">Preferred name: Jack</div>
-        <p className="hero-role">
-          {p.role}
-          <span className="hero-divider">/</span>
-          <span className="hero-tags">
-            {p.tags.map((t, i) => (
-              <span key={t}>
-                {t}
-                {i < p.tags.length - 1 && <span className="dot-sep"> · </span>}
+        <div className="hero-top-row">
+          <div className="hero-text-col">
+            <div className="hero-meta mono">
+              <span>{p.location}</span>
+              <span className="dot-sep">·</span>
+              <span>Available for summer 2026 internships</span>
+            </div>
+            <h1 className="hero-name serif">
+              Ha Lim{" "}Chung
+            </h1>
+            <div className="hero-altname mono">Preferred name: Jack</div>
+            <p className="hero-role">
+              {p.role}
+              <span className="hero-divider">/</span>
+              <span className="hero-tags">
+                {p.tags.map((t, i) => (
+                  <span key={t}>
+                    {t}
+                    {i < p.tags.length - 1 && <span className="dot-sep"> · </span>}
+                  </span>
+                ))}
               </span>
-            ))}
-          </span>
-        </p>
-        <p className="hero-summary">{p.summary}</p>
-        <div className="hero-ctas">
-          <a className="btn btn-primary" href={p.resume} target="_blank" rel="noreferrer">
-            <Download style={{ width: 15, height: 15 }} /> View Resume
-          </a>
-          <a className="btn" href="#projects">
-            View Projects <ArrowRight style={{ width: 15, height: 15 }} />
-          </a>
-          <a className="btn" href={p.github} target="_blank" rel="noreferrer">
-            <Github style={{ width: 15, height: 15 }} /> GitHub
-          </a>
-          <a className="btn" href={p.linkedin} target="_blank" rel="noreferrer">
-            <Linkedin style={{ width: 15, height: 15 }} /> LinkedIn
-          </a>
+            </p>
+            <p className="hero-summary">{p.summary}</p>
+            <div className="hero-ctas">
+              <a className="btn btn-primary" href={p.resume} target="_blank" rel="noreferrer">
+                <Download style={{ width: 15, height: 15 }} /> View Resume
+              </a>
+              <a className="btn" href="#projects">
+                View Projects <ArrowRight style={{ width: 15, height: 15 }} />
+              </a>
+              <a className="btn" href={p.github} target="_blank" rel="noreferrer">
+                <Github style={{ width: 15, height: 15 }} /> GitHub
+              </a>
+              <a className="btn" href={p.linkedin} target="_blank" rel="noreferrer">
+                <Linkedin style={{ width: 15, height: 15 }} /> LinkedIn
+              </a>
+            </div>
+          </div>
+          <div className="hero-photo-col">
+            <div className="hero-photo-wrap">
+              <Image
+                src="/profile.png"
+                alt="Ha Lim Chung"
+                width={320}
+                height={320}
+                className="hero-photo"
+                priority
+              />
+            </div>
+          </div>
         </div>
         <div className="hero-stats">
           {p.stats.map((s) => (
