@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
       <body className={`${geist.variable} ${geistMono.variable} ${instrumentSerif.variable}`}>
         {children}
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
