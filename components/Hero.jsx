@@ -14,7 +14,7 @@ export default function Hero() {
 
         <div className="hero-name-row">
           <div className="hero-photo-wrap">
-            <img src="/profile.png" alt="Ha Lim Chung" className="hero-photo" />
+            <img src="https://raw.githubusercontent.com/wjdgkfla/portfolio/main/public/profile.png" alt="Ha Lim Chung" className="hero-photo" />
           </div>
           <h1 className="hero-name serif">Ha Lim Chung</h1>
         </div>
