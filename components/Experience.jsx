@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import PORTFOLIO from "@/data/portfolio";
+import PORTFOLIO from "../data/portfolio";
 
 export default function Experience() {
   const p = PORTFOLIO;

@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import PORTFOLIO from "@/data/portfolio";
+import PORTFOLIO from "../data/portfolio";
 import { ArrowUpRight } from "./Icons";
 
 const links = [

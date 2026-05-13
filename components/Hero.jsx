@@ -1,4 +1,4 @@
-import PORTFOLIO from "@/data/portfolio";
+import PORTFOLIO from "../data/portfolio";
 import { Download, ArrowRight, Github, Linkedin } from "./Icons";
 
 export default function Hero() {

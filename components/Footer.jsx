@@ -1,4 +1,4 @@
-import PORTFOLIO from "@/data/portfolio";
+import PORTFOLIO from "../data/portfolio";
 
 export default function Footer() {
   const p = PORTFOLIO;
