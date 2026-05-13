@@ -1,4 +1,3 @@
-import Image from "next/image";
 import PORTFOLIO from "../data/portfolio";
 import { Download, ArrowRight, Github, Linkedin } from "./Icons";
 
@@ -48,13 +47,11 @@ export default function Hero() {
           </div>
           <div className="hero-photo-col">
             <div className="hero-photo-wrap">
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src="/profile.png"
                 alt="Ha Lim Chung"
-                width={320}
-                height={320}
                 className="hero-photo"
-                priority
               />
             </div>
           </div>
