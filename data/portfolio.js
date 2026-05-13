@@ -5,7 +5,7 @@ const PORTFOLIO = {
   tags: ["Data Analytics", "Machine Learning", "Optimization"],
   summary: "Graduate student in Business Analytics at The George Washington University — focused on forecasting, ML, optimization, and practical data tools that support real decisions.",
   location: "Fairfax, Virginia",
-  email: "chunghalim98@gmail.com",
+  email: "jack.chung@gwu.edu",
   github: "https://github.com/wjdgkfla",
   linkedin: "https://www.linkedin.com/in/ha-lim-chung/",
   resume: "/uploads/Ha_Lim_Chung_Resume_Mar4_2026.pdf",

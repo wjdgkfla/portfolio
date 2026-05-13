@@ -11,14 +11,7 @@ export default function Hero() {
           <span className="dot-sep">·</span>
           <span>Available for summer 2026 internships</span>
         </div>
-
-        <div className="hero-name-row">
-          <div className="hero-photo-wrap">
-            <img src="https://raw.githubusercontent.com/wjdgkfla/portfolio/main/public/profile.png" alt="Ha Lim Chung" className="hero-photo" />
-          </div>
-          <h1 className="hero-name serif">Ha Lim Chung</h1>
-        </div>
-
+        <h1 className="hero-name serif">Ha Lim Chung</h1>
         <div className="hero-altname mono">Preferred name: Jack</div>
         <p className="hero-role">
           {p.role}
