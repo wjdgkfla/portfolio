@@ -1,83 +1,55 @@
 # Ha Lim Chung — Portfolio
 
-Personal portfolio for Ha Lim Chung (preferred name: Jack).  
-Business Analytics graduate student at The George Washington University.
+**Live site:** [halimchung.vercel.app](https://halimchung.vercel.app)
 
-**Live site:** https://jack-portfolio-wjdgkfla.vercel.app *(update after deployment)*
-
----
-
-## Tech stack
-
-- Next.js 15 (App Router)
-- React 19
-- Plain CSS (no framework)
-- Vercel Speed Insights
-- Hosted on Vercel
+Business Analytics graduate student at The George Washington University. Focused on data analytics, machine learning, ETL pipelines, and business intelligence. Seeking Summer 2026 internships and full-time opportunities after Summer 2027.
 
 ---
 
-## Run locally
+## About This Project
+
+Personal portfolio website built to present my background, work experience, and projects to recruiters and hiring managers in data analytics, business analytics, AI, and operations roles.
+
+---
+
+## Featured Projects
+
+**Enrollment Projection Tool**
+Python and Snowflake ETL pipeline built during an internship at INTO Mason. Improved enrollment forecast accuracy by 15% and reduced manual reporting workload by 50% through automated business intelligence dashboards.
+
+**Responsible Machine Learning**
+Graduate capstone (DNSC 6330, GWU) applying fairness auditing, subgroup error analysis, calibration, and model evaluation to high-stakes ML systems.
+
+**Mason Market**
+Cross-platform mobile marketplace for GMU students built with Flutter and Firebase. In development.
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Language:** JavaScript / React 19
+- **Styling:** Plain CSS
+- **Analytics:** Vercel Analytics and Speed Insights
+- **Hosting:** Vercel
+
+---
+
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open: `http://localhost:3000`
+Open [http://localhost:3000](http://localhost:3000)
+
+All content is managed in `data/portfolio.js` — edit that file to update any section of the site.
 
 ---
 
-## File structure
+## Contact
 
-```
-app/
-  layout.jsx        ← root layout, fonts, metadata, Speed Insights
-  page.jsx          ← assembles all sections
-  globals.css       ← all styles
-components/
-  Nav.jsx
-  Hero.jsx
-  About.jsx
-  Projects.jsx
-  Experience.jsx
-  Skills.jsx
-  Leadership.jsx
-  Contact.jsx
-  Footer.jsx
-  Icons.jsx
-data/
-  portfolio.js      ← all content lives here — edit this to update the site
-public/
-  uploads/
-    Ha_Lim_Chung_Resume_Mar4_2026.pdf
-```
-
----
-
-## Edit content
-
-Everything is in `data/portfolio.js`. Change values there and the whole site updates.
-
----
-
-## Deploy to GitHub
-
-```bash
-git init
-git add .
-git commit -m "initial next.js portfolio"
-git branch -M main
-git remote add origin https://github.com/wjdgkfla/jack-portfolio.git
-git push -u origin main
-```
-
-## Deploy to Vercel
-
-1. Go to [vercel.com](https://vercel.com) → sign in with GitHub
-2. **Add New → Project** → import `jack-portfolio`
-3. Settings:
-   - **Framework Preset:** Next.js *(auto-detected)*
-   - **Build Command:** `npm run build` *(auto)*
-   - **Output Directory:** `.next` *(auto)*
-4. Click **Deploy**
+- **Email:** jack.chung@gwu.edu
+- **LinkedIn:** [linkedin.com/in/ha-lim-chung](https://www.linkedin.com/in/ha-lim-chung/)
+- **GitHub:** [github.com/wjdgkfla](https://github.com/wjdgkfla)
