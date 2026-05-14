@@ -26,6 +26,7 @@ export default function Hero() {
           </span>
         </p>
         <p className="hero-summary">{p.summary}</p>
+        <p className="hero-target mono">Targeting roles in data analytics, business analytics, AI, and data-related fields</p>
         <div className="hero-ctas">
           <a className="btn btn-primary" href={p.resume} target="_blank" rel="noreferrer">
             <Download style={{ width: 15, height: 15 }} /> View Resume
