@@ -8,7 +8,7 @@ const PORTFOLIO = {
   email: "jack.chung@gwu.edu",
   github: "https://github.com/wjdgkfla",
   linkedin: "https://www.linkedin.com/in/ha-lim-chung/",
-  resume: "/uploads/Ha_Lim_Chung_Resume_Mar4_2026.pdf",
+  resume: "/uploads/Ha_Lim_Chung_Resume_May_2026.pdf",
 
   about: [
     "I am pursuing a Master of Science in Business Analytics at The George Washington University, building on a B.S. in Management Information Systems from George Mason University's School of Business.",
