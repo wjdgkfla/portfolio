@@ -12,14 +12,14 @@ const PORTFOLIO = {
 
   about: [
     "I am pursuing a Master of Science in Business Analytics at The George Washington University, building on a B.S. in Management Information Systems from George Mason University's School of Business.",
-    "My focus is on turning data into practical, usable solutions — forecasting models, automated reporting pipelines, and machine learning systems that support real business decisions. I am most interested in roles at the intersection of analytics, operations, and business technology.",
+    "My focus is on turning data into actionable business intelligence — building ETL pipelines, forecasting models, and dashboards that help organizations make faster, more confident decisions. I am most interested in roles at the intersection of data analytics, operations, and business technology.",
   ],
 
   stats: [
     { k: "15%", v: "Forecast accuracy improvement" },
     { k: "50%", v: "Manual workload reduction" },
     { k: "~6.5M", v: "Customer records maintained" },
-    { k: "5,000+", v: "Ads processed per batch" },
+    { k: "30%", v: "Review process time reduction" },
   ],
 
   projects: [
@@ -28,8 +28,8 @@ const PORTFOLIO = {
       name: "Enrollment Projection Tool",
       year: "2023–24",
       kind: "Internship Project · INTO Mason",
-      blurb: "Built Python and Snowflake forecasting workflows that replaced manual spreadsheet processes, improving projection accuracy by 15% and reducing manual workload by 50%.",
-      details: "Designed an end-to-end data pipeline: pulled enrollment data from Snowflake, cleaned and normalized student cohorts, ran forecasting models, and generated recurring reports for planning and stakeholder review. Presented weekly insights to marketing and cross-functional teams.",
+      blurb: "Built an end-to-end ETL and forecasting pipeline that improved enrollment projection accuracy by 15% and cut manual reporting workload by 50%, delivering weekly business intelligence dashboards to planning and marketing teams.",
+      details: "Designed the full data pipeline: extracted enrollment data from Snowflake, cleaned and normalized student cohorts, ran forecasting models, and automated recurring KPI reports and trend dashboards using pandas and Matplotlib. Presented weekly data visualizations to cross-functional stakeholders to support enrollment planning decisions.",
       stack: ["Python", "Snowflake", "pandas", "Matplotlib"],
       role: "Intern — solo build",
       status: "Shipped",
@@ -39,8 +39,8 @@ const PORTFOLIO = {
       name: "Responsible Machine Learning",
       year: "2026",
       kind: "Graduate Capstone · DNSC 6330",
-      blurb: "Graduate-level project examining model fairness, subgroup error measurement, and deployment defensibility for ML systems making consequential decisions.",
-      details: "Applied fairness auditing techniques including subgroup error analysis, calibration assessment, and residual risk evaluation. Developed a structured framework for how models should be documented, tested, and reviewed before production deployment.",
+      blurb: "Graduate-level capstone examining model fairness, subgroup error measurement, and deployment defensibility for machine learning systems making consequential business decisions.",
+      details: "Applied fairness auditing and model evaluation techniques including subgroup error analysis, calibration assessment, and residual risk evaluation. Developed a structured business intelligence framework for how models should be documented, tested, and reviewed before production deployment — with an emphasis on explainability and responsible AI governance.",
       stack: ["Python", "scikit-learn", "Fairlearn", "pandas"],
       role: "Graduate capstone",
       status: "In progress",
@@ -61,8 +61,8 @@ const PORTFOLIO = {
       name: "Graduate Analytics Coursework",
       year: "2025–26",
       kind: "Graduate Program · GWU MSBA",
-      blurb: "Applied coursework across machine learning, optimization, statistics, risk analytics, and marketing analytics through the GWU MSBA program.",
-      details: "Projects covering supervised and unsupervised learning, mathematical optimization, statistical inference, stochastic modeling, decision and risk analysis, and AI applications in marketing. Selected work available on GitHub.",
+      blurb: "Applied coursework in machine learning, optimization, statistics, risk analytics, and marketing analytics — with a focus on building business intelligence skills and data-driven decision-making.",
+      details: "Projects covering supervised and unsupervised learning, mathematical optimization, statistical inference, stochastic modeling, decision and risk analysis, and AI applications in marketing. Selected work and dashboards available on GitHub.",
       stack: ["Python", "R", "SQL", "Jupyter", "scikit-learn"],
       role: "Graduate coursework",
       github: "https://github.com/wjdgkfla",
@@ -77,10 +77,10 @@ const PORTFOLIO = {
       where: "Fairfax, VA · Remote",
       when: "Nov 2024 — Aug 2025",
       bullets: [
-        "Reviewed and refined 120+ queries and keywords daily to ensure alignment with client policies, industry standards, and best practices.",
-        "Oversaw data imports and exports of 5,000+ ads per batch, maintaining accuracy, security, and regulatory compliance.",
-        "Collaborated with analysts, QA, and operations teams to redesign the content tagging process, reducing review time by 30%.",
-        "Curated and rated bilingual Korean–English digital content with 90%+ accuracy, supporting ad network efficiency.",
+        "Reduced content review cycle time by 30% as measured by processing speed improvements by collaborating with analysts, QA, and operations teams to redesign the content tagging workflow and data pipeline.",
+        "Maintained data integrity across 5,000+ ad records per batch as measured by zero compliance flags by overseeing structured data imports and exports aligned with client policies and regulatory requirements.",
+        "Achieved 90%+ content accuracy as measured by client quality ratings by reviewing and refining 120+ queries and keywords daily against industry standards and best practices.",
+        "Supported ad network efficiency and KPI targets by curating and rating bilingual Korean–English digital content with 90%+ accuracy across high-volume review cycles.",
       ],
     },
     {
@@ -89,10 +89,10 @@ const PORTFOLIO = {
       where: "Fairfax, VA",
       when: "Aug 2023 — Aug 2024",
       bullets: [
-        "Developed Python-based enrollment forecasting workflows to collect, clean, and analyze student enrollment data, improving projection accuracy by 15%.",
-        "Automated recurring data preparation and reporting processes, reducing manual workload by 50%.",
-        "Built data visualizations and trend reports using pandas and Matplotlib to support enrollment planning and stakeholder decision-making.",
-        "Presented weekly enrollment insights to marketing and cross-functional teams to support Korean student recruitment outreach.",
+        "Improved enrollment forecast accuracy by 15% as measured by reduction in projection error by building Python-based ETL workflows that extracted, cleaned, and normalized student enrollment data from Snowflake.",
+        "Reduced manual reporting workload by 50% as measured by weekly time savings by automating recurring data preparation and generating business intelligence dashboards using pandas and Matplotlib.",
+        "Delivered actionable KPI reports and trend dashboards to marketing and cross-functional teams by building data visualizations that surfaced enrollment patterns and supported targeted outreach planning.",
+        "Enabled data-driven enrollment strategy for Korean student recruitment by presenting weekly business intelligence insights to planning and marketing stakeholders.",
       ],
     },
     {
@@ -101,10 +101,10 @@ const PORTFOLIO = {
       where: "Newcastle, DE · Remote",
       when: "Jun 2023 — Aug 2023",
       bullets: [
-        "Maintained reporting accuracy across approximately 6.5 million customer records and monitored controls for faulty reporting trends.",
-        "Used SQL to identify illogical FCRA reporting scenarios and maintained an exceptions database.",
-        "Reconciled account data reported to four national credit bureaus — Equifax, TransUnion, Experian, and Innovis — on a daily basis.",
-        "Supported a 90%+ data accuracy standard, evidenced by low reject and dispute rates.",
+        "Maintained 90%+ data accuracy across approximately 6.5 million customer records as measured by industry-leading low reject and dispute rates by monitoring reporting controls and flagging faulty data trends.",
+        "Reduced reporting exceptions as measured by exception database growth rate by using SQL to identify and document illogical FCRA reporting scenarios across four national credit bureaus.",
+        "Ensured daily data accuracy and KPI compliance by reconciling account-level information reported to Equifax, TransUnion, Experian, and Innovis.",
+        "Supported credit reporting integrity and regulatory compliance by collecting and analyzing all customer data submitted to credit bureaus on a daily basis.",
       ],
     },
     {
@@ -113,9 +113,8 @@ const PORTFOLIO = {
       where: "Fairfax, VA",
       when: "Jan 2022 — Aug 2023",
       bullets: [
-        "Supported 20+ students and faculty per shift via phone, live chat, and walk-in with a 90%+ resolution rate.",
-        "Created and resolved 40+ support tickets per shift through Team Dynamics.",
-        "Consistently met and exceeded the 95% customer interaction satisfaction target.",
+        "Exceeded the 95% customer satisfaction KPI as measured by interaction ratings by resolving 20+ student and faculty support requests per shift via phone, live chat, and walk-in.",
+        "Maintained a 90%+ first-contact resolution rate as measured by ticket closure data by creating and resolving 40+ support tickets per shift through Team Dynamics.",
       ],
     },
   ],
@@ -152,7 +151,7 @@ const PORTFOLIO = {
     },
     {
       group: "Business & Operations",
-      items: ["Reporting", "Process improvement", "Stakeholder communication", "Digital marketing analytics", "AI in marketing"],
+      items: ["Business intelligence", "ETL pipelines", "KPI reporting", "Dashboard development", "Data visualization", "Process improvement", "Stakeholder communication", "Digital marketing analytics"],
     },
   ],
 };
