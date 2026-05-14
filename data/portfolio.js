@@ -126,8 +126,10 @@ const PORTFOLIO = {
       where: "George Mason University · Fairfax, VA",
       when: "Aug 2021 — Aug 2023",
       bullets: [
-        "Led 50+ members as President and Advisor of KISA at George Mason University.",
-        "Organized events and job fair programs in collaboration with the Embassy and Consulate of Korea.",
+        "Led 50+ members as President and Advisor, supporting student engagement, event planning, and organizational coordination for Korean international students.",
+        "Organized cultural, networking, and career-focused events, including job fair programs in collaboration with the Embassy and Consulate of Korea.",
+        "Coordinated event logistics, member communication, and student outreach to support participation and strengthen the KISA community.",
+        "Advised student leaders on event preparation and communication to support organizational continuity after serving as President.",
       ],
     },
   ],
