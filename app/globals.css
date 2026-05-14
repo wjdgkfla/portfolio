@@ -300,7 +300,7 @@ section {
 }
 .hero-target {
   font-size: 12px;
-  color: var(--accent);
+  color: #7EB8F7;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin: -12px 0 32px;
@@ -312,7 +312,7 @@ section {
   content: '';
   width: 20px;
   height: 1px;
-  background: var(--accent);
+  background: #7EB8F7;
   display: inline-block;
 }
 .hero-ctas {
