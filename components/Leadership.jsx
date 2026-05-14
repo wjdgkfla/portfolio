@@ -6,7 +6,7 @@ export default function Leadership() {
     <section id="leadership">
       <div className="container">
         <div className="section-eyebrow">05 · Leadership</div>
-        <h2 className="section-title serif">Student involvement.</h2>
+        <h2 className="section-title">Student Involvement</h2>
         <div className="xp-layout">
           <nav className="xp-tabs">
             {p.leadership.map((l) => (

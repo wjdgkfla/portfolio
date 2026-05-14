@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="hero-meta mono">
           <span>{p.location}</span>
           <span className="dot-sep">·</span>
-          <span>Available for summer 2026 internships</span>
+          <span>Open to Summer 2026 internships and full-time roles after Summer 2027</span>
         </div>
         <h1 className="hero-name serif">Ha Lim Chung</h1>
         <div className="hero-altname mono">Preferred name: Jack</div>

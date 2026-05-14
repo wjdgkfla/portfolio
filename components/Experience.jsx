@@ -11,7 +11,7 @@ export default function Experience() {
     <section id="experience">
       <div className="container">
         <div className="section-eyebrow">03 · Experience</div>
-        <h2 className="section-title serif">Where I&apos;ve worked.</h2>
+        <h2 className="section-title">Professional Experience</h2>
         <div className="xp-layout">
           <nav className="xp-tabs">
             {p.experience.map((e, i) => (

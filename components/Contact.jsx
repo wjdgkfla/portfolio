@@ -25,8 +25,8 @@ export default function Contact() {
     <section id="contact">
       <div className="container">
         <div className="section-eyebrow">06 · Contact</div>
-        <h2 className="section-title serif">Let&apos;s talk.</h2>
-        <p className="section-lede">I&apos;m open to internships and analytics roles. The fastest way to reach me is email.</p>
+        <h2 className="section-title">Get in Touch</h2>
+        <p className="section-lede">I am open to Summer 2026 internships in analytics, data, AI, operations, and business technology, as well as full-time opportunities after Summer 2027. The fastest way to reach me is email.</p>
         <div className="contact-card card">
           <div className="contact-row">
             <div className="contact-label mono">EMAIL</div>

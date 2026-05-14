@@ -6,7 +6,7 @@ export default function About() {
     <section id="about">
       <div className="container">
         <div className="section-eyebrow">01 · About</div>
-        <h2 className="section-title serif">A student-engineer who likes practical tools.</h2>
+        <h2 className="section-title">Business Analytics Graduate Student</h2>
         <div className="about-grid">
           <div className="about-copy">
             {p.about.map((para, i) => <p key={i}>{para}</p>)}
@@ -24,7 +24,7 @@ export default function About() {
               </li>
               <li>
                 <span className="mono dim">FOCUS</span>
-                <span>Forecasting · Automation · Responsible ML</span>
+                <span>Analytics · Machine Learning · Business Technology</span>
               </li>
               <li>
                 <span className="mono dim">LANGS</span>

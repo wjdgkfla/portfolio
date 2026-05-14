@@ -6,7 +6,7 @@ export default function Skills() {
     <section id="skills">
       <div className="container">
         <div className="section-eyebrow">04 · Skills</div>
-        <h2 className="section-title serif">The toolkit.</h2>
+        <h2 className="section-title">Technical Skills</h2>
         <div className="skills-grid">
           {p.skills.map((s, i) => (
             <div className="skill-card card" key={s.group}>

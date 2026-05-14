@@ -60,9 +60,9 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="container">
-        <div className="section-eyebrow">02 · Featured projects</div>
-        <h2 className="section-title serif">Things I&apos;ve built and shipped.</h2>
-        <p className="section-lede">A mix of internship work, graduate coursework, and side projects. Click a card for details.</p>
+        <div className="section-eyebrow">02 · Projects</div>
+        <h2 className="section-title">Selected Projects</h2>
+        <p className="section-lede">Internship work, graduate coursework, and side projects. Click any card for details.</p>
         <div className="projects-grid">
           {p.projects.map((pr, i) => {
             const expanded = open === pr.id;
