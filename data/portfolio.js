@@ -3,12 +3,12 @@ const PORTFOLIO = {
   preferredName: "Jack",
   role: "Business Analytics Graduate Student",
   tags: ["Data Analytics", "Machine Learning", "Business Technology"],
-  summary: "Business Analytics graduate student focused on data analytics, machine learning, optimization, and business technology. Seeking Summer 2026 internships and full-time opportunities after Summer 2027.",
+  summary: "Business Analytics graduate student focused on data analytics, machine learning, optimization, and business technology. Seeking internships and full-time opportunities — graduating June 2027.",
   location: "Fairfax, Virginia",
   email: "jack.chung@gwu.edu",
   github: "https://github.com/wjdgkfla",
   linkedin: "https://www.linkedin.com/in/ha-lim-chung/",
-  resume: "/uploads/Ha_Lim_Chung_Resume_May_2026.pdf",
+  resume: "/uploads/Ha_Lim_Chung_Resume_July_2026.pdf",
 
   about: [
     "I am pursuing a Master of Science in Business Analytics at The George Washington University, building on a B.S. in Management Information Systems from George Mason University's School of Business.",
@@ -18,8 +18,8 @@ const PORTFOLIO = {
   stats: [
     { k: "15%", v: "Forecast accuracy improvement" },
     { k: "50%", v: "Manual workload reduction" },
-    { k: "~6.5M", v: "Customer records maintained" },
-    { k: "30%", v: "Review process time reduction" },
+    { k: "~6.5M", v: "Customer records at 99%+ accuracy" },
+    { k: "2.4M", v: "Loan records audited for ML fairness" },
   ],
 
   projects: [
@@ -28,10 +28,11 @@ const PORTFOLIO = {
       name: "Enrollment Projection Tool",
       year: "2023–24",
       kind: "Internship Project · INTO Mason",
-      blurb: "Built an end-to-end ETL and forecasting pipeline that improved enrollment projection accuracy by 15% and cut manual reporting workload by 50%, delivering weekly business intelligence dashboards to planning and marketing teams.",
-      details: "Designed the full data pipeline: extracted enrollment data from Snowflake, cleaned and normalized student cohorts, ran forecasting models, and automated recurring KPI reports and trend dashboards using pandas and Matplotlib. Presented weekly data visualizations to cross-functional stakeholders to support enrollment planning decisions.",
+      blurb: "Built an end-to-end ETL and forecasting pipeline validated against 10 years of historical enrollment data — improved projection accuracy by 15% and cut manual reporting workload by 50% (~5 hours saved weekly).",
+      details: "Designed the full data pipeline: extracted enrollment data from Snowflake, cleaned and normalized student cohorts, ran time-series forecasting models, and automated recurring KPI reports and trend dashboards using pandas and Matplotlib. Delivered recurring trend reports and visualizations to 5 cross-functional teams to support enrollment planning decisions.",
       stack: ["Python", "Snowflake", "pandas", "Matplotlib"],
       role: "Intern — solo build",
+      github: "https://github.com/wjdgkfla/INTO-Mason-Report",
       status: "Shipped",
     },
     {
@@ -39,22 +40,24 @@ const PORTFOLIO = {
       name: "Responsible Machine Learning",
       year: "2026",
       kind: "Graduate Capstone · DNSC 6330",
-      blurb: "Graduate-level capstone examining model fairness, subgroup error measurement, and deployment defensibility for machine learning systems making consequential business decisions.",
-      details: "Applied fairness auditing and model evaluation techniques including subgroup error analysis, calibration assessment, and residual risk evaluation. Developed a structured business intelligence framework for how models should be documented, tested, and reviewed before production deployment — with an emphasis on explainability and responsible AI governance.",
-      stack: ["Python", "scikit-learn", "Fairlearn", "pandas"],
+      blurb: "Fairness audit of a mortgage approval classifier trained on 2.4 million HMDA loan records — identified three adverse impact ratio violations and remediated all of them through decision-threshold adjustment.",
+      details: "Trained an XGBoost classifier (AUC 0.8127) on 2024 HMDA data and applied a three-pillar responsible ML audit framework: subgroup performance analysis, adverse impact ratio testing, and false positive/negative rate comparison across demographic groups. Remediated all three baseline AIR violations by adjusting the decision threshold, and produced a model card, system card, and monitoring plan supporting a defensible deployment recommendation.",
+      stack: ["Python", "XGBoost", "scikit-learn", "pandas"],
       role: "Graduate capstone",
-      status: "In progress",
+      github: "https://github.com/wjdgkfla/DNSC-6330-Capstone",
+      status: "Completed",
     },
     {
       id: "mason-market",
       name: "Mason Market",
       year: "2025",
-      kind: "Mobile App · Side Project",
-      blurb: "A GMU-focused campus marketplace designed to help students buy, sell, and trade items within a trusted university community.",
-      details: "Cross-platform mobile app featuring Firebase authentication, real-time listings via Firestore, in-app messaging, and verified Mason email sign-up. Designed around student-centered product logic and campus pickup workflows.",
-      stack: ["Flutter", "Firebase", "Firestore", "Dart"],
+      kind: "Full-Stack Web App · Side Project",
+      blurb: "A live GMU-focused campus marketplace that helps students buy, sell, and trade items within a trusted university community — built end-to-end with AI-assisted development.",
+      details: "Full-stack web application featuring Supabase authentication and real-time listings, verified Mason email sign-up, and student-centered campus pickup workflows. Built from zero to production using Next.js, Supabase, and Tailwind CSS, leveraging Claude AI and Cursor throughout design and development.",
+      stack: ["Next.js", "Supabase", "Tailwind CSS", "Claude AI", "Cursor"],
       role: "Solo build — design and development",
-      status: "In development",
+      link: "https://masonmarket-seven.vercel.app/",
+      status: "Live",
     },
     {
       id: "coursework",
@@ -77,10 +80,10 @@ const PORTFOLIO = {
       where: "Fairfax, VA · Remote",
       when: "Nov 2024 — Aug 2025",
       bullets: [
-        "Reduced content review cycle time by 30% as measured by processing speed improvements by collaborating with analysts, QA, and operations teams to redesign the content tagging workflow and data pipeline.",
-        "Maintained data integrity across 5,000+ ad records per batch as measured by zero compliance flags by overseeing structured data imports and exports aligned with client policies and regulatory requirements.",
-        "Achieved 90%+ content accuracy as measured by client quality ratings by reviewing and refining 120+ queries and keywords daily against industry standards and best practices.",
-        "Supported ad network efficiency and KPI targets by curating and rating bilingual Korean–English digital content with 90%+ accuracy across high-volume review cycles.",
+        "Reduced content review time by 30% by redesigning the content tagging workflow in collaboration with analysts, QA, and operations teams.",
+        "Maintained zero compliance violations across 5,000+ digital ads per batch by managing data imports/exports, validating records, and applying regulatory requirements.",
+        "Processed 120+ queries and keywords daily while sustaining 90%+ content accuracy, applying client guidelines, industry standards, and structured quality-control processes.",
+        "Supported ad network efficiency and KPI targets by curating and rating bilingual Korean–English digital content across high-volume review cycles.",
       ],
     },
     {
@@ -89,9 +92,9 @@ const PORTFOLIO = {
       where: "Fairfax, VA",
       when: "Aug 2023 — Aug 2024",
       bullets: [
-        "Improved enrollment forecast accuracy by 15% as measured by reduction in projection error by building Python-based ETL workflows that extracted, cleaned, and normalized student enrollment data from Snowflake.",
-        "Reduced manual reporting workload by 50% as measured by weekly time savings by automating recurring data preparation and generating business intelligence dashboards using pandas and Matplotlib.",
-        "Delivered actionable KPI reports and trend dashboards to marketing and cross-functional teams by building data visualizations that surfaced enrollment patterns and supported targeted outreach planning.",
+        "Improved enrollment projection accuracy by 15% by building a Python forecasting workflow that collected, cleaned, and validated 10 years of historical student enrollment data.",
+        "Cut recurring reporting workload by 50% (~5 hours saved weekly) by automating manual data preparation pipelines with Python and pandas.",
+        "Delivered recurring trend reports and Matplotlib visualizations to 5 cross-functional teams, including marketing and enrollment, informing data-driven recruitment and enrollment planning decisions.",
         "Enabled data-driven enrollment strategy for Korean student recruitment by presenting weekly business intelligence insights to planning and marketing stakeholders.",
       ],
     },
@@ -101,9 +104,9 @@ const PORTFOLIO = {
       where: "Newcastle, DE · Remote",
       when: "Jun 2023 — Aug 2023",
       bullets: [
-        "Maintained 90%+ data accuracy across approximately 6.5 million customer records as measured by industry-leading low reject and dispute rates by monitoring reporting controls and flagging faulty data trends.",
-        "Reduced reporting exceptions as measured by exception database growth rate by using SQL to identify and document illogical FCRA reporting scenarios across four national credit bureaus.",
-        "Ensured daily data accuracy and KPI compliance by reconciling account-level information reported to Equifax, TransUnion, Experian, and Innovis.",
+        "Maintained 99%+ data accuracy across approximately 6.5 million customer records, evidenced by industry-leading low reject and dispute rates, by monitoring reporting controls and flagging faulty data trends.",
+        "Identified and documented 100+ reporting exceptions weekly using SQL, flagging illogical FCRA scenarios and updating exception-tracking databases across four national credit bureaus.",
+        "Reconciled 20+ account-level records daily against data reported to Equifax, TransUnion, Experian, and Innovis, ensuring daily reporting accuracy and KPI compliance.",
         "Supported credit reporting integrity and regulatory compliance by collecting and analyzing all customer data submitted to credit bureaus on a daily basis.",
       ],
     },
@@ -126,11 +129,20 @@ const PORTFOLIO = {
       where: "George Mason University · Fairfax, VA",
       when: "Aug 2021 — Aug 2023",
       bullets: [
-        "Led 50+ members as President and Advisor, supporting student engagement, event planning, and organizational coordination for Korean international students.",
-        "Organized cultural, networking, and career-focused events, including job fair programs in collaboration with the Embassy and Consulate of Korea.",
+        "Grew membership from 12 to 75+ students as President, leading event logistics, member communication, and outreach across a two-year tenure.",
+        "Organized 2+ cultural, networking, and career events per semester with 30+ attendees each, in collaboration with the Embassy and Consulate of Korea.",
         "Coordinated event logistics, member communication, and student outreach to support participation and strengthen the KISA community.",
         "Advised student leaders on event preparation and communication to support organizational continuity after serving as President.",
       ],
+    },
+  ],
+
+  volunteer: [
+    {
+      org: "Messiah Presbyterian Church",
+      role: "Korean School Teacher",
+      where: "Fairfax, VA",
+      blurb: "Teach Korean language classes at the church's Korean school, supporting language and cultural education for the local community.",
     },
   ],
 
@@ -141,7 +153,7 @@ const PORTFOLIO = {
     },
     {
       group: "Machine Learning & Data Analysis",
-      items: ["Forecasting", "Classification", "Regression", "Clustering", "Model evaluation", "Fairness metrics", "Exploratory data analysis", "Data cleaning"],
+      items: ["Forecasting", "Classification", "Regression", "Clustering", "XGBoost", "SHAP", "LIME", "Model evaluation", "Fairness metrics", "Exploratory data analysis", "Data cleaning"],
     },
     {
       group: "Statistics & Optimization",
@@ -149,7 +161,11 @@ const PORTFOLIO = {
     },
     {
       group: "Tools & Platforms",
-      items: ["Excel", "PowerPoint", "GitHub", "Jupyter Notebook", "Firebase", "Flutter"],
+      items: ["Excel", "PowerPoint", "GitHub", "Jupyter Notebook", "Supabase", "Next.js", "Tailwind CSS"],
+    },
+    {
+      group: "AI Tools",
+      items: ["Claude AI", "ChatGPT", "Cursor", "AI-assisted development"],
     },
     {
       group: "Business & Operations",

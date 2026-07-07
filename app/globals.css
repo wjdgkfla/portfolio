@@ -424,6 +424,8 @@ section {
 .status-dot.in-progress { background: #C58B2A; }
 .status-dot.in-development { background: #7EB8F7; }
 .status-dot.ongoing { background: #6E6E76; }
+.status-dot.live { background: #2FA36B; }
+.status-dot.completed { background: #1F6F4A; }
 .project-thumb {
   height: 180px;
   background: var(--accent-soft);

@@ -92,6 +92,24 @@ export default function Projects() {
                       <span className="mono dim">ROLE</span>
                       <span>{pr.role}</span>
                     </div>
+                    {(pr.github || pr.link) && (
+                      <div className="project-meta-row">
+                        <span className="mono dim">LINKS</span>
+                        <span>
+                          {pr.github && (
+                            <a href={pr.github} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                              GitHub ↗
+                            </a>
+                          )}
+                          {pr.github && pr.link && " · "}
+                          {pr.link && (
+                            <a href={pr.link} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                              Live Site ↗
+                            </a>
+                          )}
+                        </span>
+                      </div>
+                    )}
                   </div>
                   <div className="project-foot">
                     <div className="project-stack">
